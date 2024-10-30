@@ -1,7 +1,7 @@
-import express from 'express'
+import express from "express";
 
-const app = express()
+const app = express();
 
-app.get('/', function (req, res) {
-  res.redirect(req.get('Referrer') || '/')
-})
+app.get("/", function (req, res) {
+  res.redirect(req.get("Referrer") || "/");
+});
